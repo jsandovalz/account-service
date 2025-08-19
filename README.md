@@ -44,10 +44,14 @@ docker-compose up -d account-db
 ```bash
 docker compose up --build
 ```
-- Verificar estado
+5. Verificar estado
 - API disponible en: http://localhost:8082/api/accounts
 - Documentación Swagger: http://localhost:8082/swagger-ui/index.html
 
+6. Popular la DB
+```bash
+docker exec -i account-db mysql -uuser -puserpass accountdb < src/main/resources/data.sql
+```
 ---
 
 ## 📖 Documentación con SwaggerEste proyecto incluye documentación interactiva con Swagger UI para explorar y probar los endpoints.- URL: http://localhost:8082/swagger-ui/index.html
