@@ -54,7 +54,8 @@ docker exec -i account-db mysql -uuser -puserpass accountdb < src/main/resources
 ```
 ---
 
-## 📖 Documentación con SwaggerEste proyecto incluye documentación interactiva con Swagger UI para explorar y probar los endpoints.- URL: http://localhost:8082/swagger-ui/index.html
+## 📖 Documentación con Swagger
+Este proyecto incluye documentación interactiva con Swagger UI para explorar y probar los endpoints.- URL: http://localhost:8082/swagger-ui/index.html
 - Generado automáticamente con Springdoc OpenAPI
 - Permite probar endpoints directamente desde el navegador
 ---
